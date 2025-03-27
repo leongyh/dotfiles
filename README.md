@@ -29,3 +29,18 @@ sudo rm -rf /opt/nvim
 sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
 ```
 
+Add to shell config.
+
+```sh
+echo 'export PATH="$PATH:/opt/nvim-linux-x86_64/bin"' >> ~/.bashrc
+```
+
+## Syncing
+
+Run downsync.sh
+
+
+```sh
+bash ./downsync.sh
+```
+
