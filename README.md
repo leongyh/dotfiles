@@ -1,10 +1,11 @@
 # nvim-config
 
-My neovim config for Debeian 12.
+My neovim config for Debian 12.
 
 ## Requirements
 
 ```sh
+# Core
 sudo apt update
 sudo apt install curl
 sudo apt install build-essential
