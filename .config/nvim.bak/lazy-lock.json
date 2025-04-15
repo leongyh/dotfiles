@@ -1,0 +1,6 @@
+{
+  "lazy.nvim": { "branch": "main", "commit": "6c3bda4aca61a13a9c63f1c1d1b16b9d3be90d7a" },
+  "nvim-autopairs": { "branch": "master", "commit": "6522027785b305269fa17088395dfc0f456cedd2" },
+  "nvim-treesitter": { "branch": "master", "commit": "a3315b8c7f0f1ddaa30b24bcc0af0d31024dfb6a" },
+  "tokyodark.nvim": { "branch": "master", "commit": "cc70a2fb809d5376f2bd8e5836f9bb3f5fb8ef43" }
+}
