@@ -3,6 +3,7 @@
 # function to handle the 'up' command
 up() {
 	echo "copying ~/.config files to current directory..."
+	rm -rf .config/
 	mkdir -p .config
 	cp -r ~/.config/* .config/
 
@@ -39,6 +40,7 @@ down() {
 	fi
 
 	echo "copying .config from current directory to ~/.config..."
+	rm -rf ~/.config
 	cp -r .config/* ~/.config/
 
 	echo "sync down completed!"
