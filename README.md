@@ -1,6 +1,6 @@
 # nvim-config
 
-My neovim config for Debian 12.
+My neovim config for Debian 12. Based off AstroVim.
 
 ## Requirements
 
@@ -20,7 +20,6 @@ tar xf lazygit.tar.gz lazygit
 sudo install lazygit -D -t /usr/local/bin/
 ```
 
-
 ## Installation
 
 ```sh
@@ -37,10 +36,12 @@ echo 'export PATH="$PATH:/opt/nvim-linux-x86_64/bin"' >> ~/.bashrc
 
 ## Syncing
 
-Run downsync.sh
-
+The script `sync.sh` will sync the dotfiles.
 
 ```sh
-bash ./downsync.sh
-```
+# Downloads dotfiles to ~/.config
+bash ./sync.sh down
 
+# Uploads dotfiles to repo
+bash ./sync.sh up
+```
