@@ -8,7 +8,7 @@
 return {
   "AstroNvim/astrocommunity",
   -- community colorschemes
-  { import = "astrocommunity.colorscheme.tokyodark-nvim" },
+  { import = "astrocommunity.colorscheme.nightfox-nvim" },
 
   -- community packs
   { import = "astrocommunity.pack.bash" },
