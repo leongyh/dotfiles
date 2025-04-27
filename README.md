@@ -11,7 +11,7 @@ sudo apt install curl
 sudo apt install build-essential
 sudo apt install fzf
 sudo apt install ripgrep
-sudo apt install fd-file
+sudo apt install fd-find
 
 # LazyGit
 LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | \grep -Po '"tag_name": *"v\K[^"]*')
