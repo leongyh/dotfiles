@@ -41,7 +41,7 @@ down() {
 
 	echo "copying .config from current directory to ~/.config..."
 	rm -rf ~/.config
-	cp -r .config/* ~/.config/
+	cp -r .config ~/.config
 
 	echo "sync down completed!"
 }
